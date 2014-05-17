@@ -25,11 +25,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		EB0EEF631927A1EF0089AAD4 /* Obj_Debug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Obj_Debug.h; sourceTree = "<group>"; };
+		EB0EEF651927A1F60089AAD4 /* Basement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Basement.h; sourceTree = "<group>"; };
 		EB63CD2C19279F620013C2F7 /* TCApp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TCApp; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB63CD2F19279F620013C2F7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		EB63CD3119279F620013C2F7 /* TCApp.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = TCApp.1; sourceTree = "<group>"; };
-		EB63CD3A19279FB70013C2F7 /* Obj_Debug.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Obj_Debug.h; sourceTree = "<group>"; };
-		EB63CD3B1927A0280013C2F7 /* Basement.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Basement.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +43,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EB0EEF621927A1EF0089AAD4 /* Debug */ = {
+			isa = PBXGroup;
+			children = (
+				EB0EEF631927A1EF0089AAD4 /* Obj_Debug.h */,
+			);
+			path = Debug;
+			sourceTree = "<group>";
+		};
+		EB0EEF641927A1F60089AAD4 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				EB0EEF651927A1F60089AAD4 /* Basement.h */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		EB63CD2319279F620013C2F7 = {
 			isa = PBXGroup;
 			children = (
@@ -62,28 +78,12 @@
 		EB63CD2E19279F620013C2F7 /* TCApp */ = {
 			isa = PBXGroup;
 			children = (
-				EB63CD3919279F970013C2F7 /* Debug */,
-				EB63CD3819279F840013C2F7 /* Utils */,
+				EB0EEF641927A1F60089AAD4 /* Utils */,
+				EB0EEF621927A1EF0089AAD4 /* Debug */,
 				EB63CD2F19279F620013C2F7 /* main.cpp */,
 				EB63CD3119279F620013C2F7 /* TCApp.1 */,
 			);
 			path = TCApp;
-			sourceTree = "<group>";
-		};
-		EB63CD3819279F840013C2F7 /* Utils */ = {
-			isa = PBXGroup;
-			children = (
-				EB63CD3B1927A0280013C2F7 /* Basement.h */,
-			);
-			name = Utils;
-			sourceTree = "<group>";
-		};
-		EB63CD3919279F970013C2F7 /* Debug */ = {
-			isa = PBXGroup;
-			children = (
-				EB63CD3A19279FB70013C2F7 /* Obj_Debug.h */,
-			);
-			name = Debug;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -247,6 +247,7 @@
 				EB63CD3719279F620013C2F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

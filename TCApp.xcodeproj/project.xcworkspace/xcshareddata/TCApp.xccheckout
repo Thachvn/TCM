@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>825E2FC1-356B-4A4F-8755-57D676921CDA</string>
+	<key>IDESourceControlProjectName</key>
+	<string>TCApp</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>84093DB2-75C8-4B85-A18E-BE1F742EC6DA</key>
+		<string>https://github.com/Thachvn/TCM.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>TCApp.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>84093DB2-75C8-4B85-A18E-BE1F742EC6DA</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Thachvn/TCM.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>84093DB2-75C8-4B85-A18E-BE1F742EC6DA</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>84093DB2-75C8-4B85-A18E-BE1F742EC6DA</string>
+			<key>IDESourceControlWCCName</key>
+			<string>TCSource</string>
+		</dict>
+	</array>
+</dict>
+</plist>

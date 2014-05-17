@@ -10,6 +10,8 @@
 #define TCApp_Basement_h
 
 #include <iostream>
+#include <time.h>
+#include <sys/time.h>
 
 #define ___NDEBUG
 class __object_base__ {
